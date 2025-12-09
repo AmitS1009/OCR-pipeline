@@ -75,24 +75,6 @@ Redacting: Date: 12/05/2023
 Saved redacted image to output.jpg
 ```
 
-## 📊 Pipeline Architecture
-
-```mermaid
-graph LR
-    A[Input Image] --> B(Pre-processing)
-    B --> C{OCR Engine}
-    C -->|Raw Text + BBox| D[Text Cleaning]
-    D --> E[PII Analysis (NLP)]
-    E -->|Identified Entities| F[Redaction Module]
-    F --> G[Sanitized Image]
-```
-
-## 📸 Demo
-
-| Original Input | Redacted Output |
-| :---: | :---: |
-| ![Input](samples/dummy.jpg) | ![Output](output.jpg) |
-| *Raw handwritten note* | *PII automatically obscured* |
 
 ## 🔮 Future Improvements
 
