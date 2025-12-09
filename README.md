@@ -41,7 +41,6 @@ Ensure you have Python installed.
 1.  **Clone the repository**
     ```bash
     git clone https://github.com/yourusername/shield-ocr-pii.git
-    cd shield-ocr-pii
     ```
 
 2.  **Install Dependencies**
